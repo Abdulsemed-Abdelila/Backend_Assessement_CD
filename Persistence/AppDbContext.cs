@@ -1,10 +1,7 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using AutoMapper.Configuration.Annotations;
 using Microsoft.EntityFrameworkCore;
-using Newtonsoft.Json;
+using Domain.Entities;
+using Domain.Entities.Common;
 
 namespace Persistence
 {
@@ -34,6 +31,8 @@ namespace Persistence
             return base.SaveChangesAsync(cancellationToken);
         }
 
-
+        public DbSet<User> Users { get; set; }
+        public DbSet<Recipe> Recipes { get; set; }
+        public DbSet<Comment> Comments { get; set; }
     }
 }

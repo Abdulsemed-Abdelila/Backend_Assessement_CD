@@ -31,3 +31,6 @@ C:\Users\Abuye\Desktop\Backend-Assessement\API\obj\Debug\net8.0\refint\API.dll
 C:\Users\Abuye\Desktop\Backend-Assessement\API\obj\Debug\net8.0\API.pdb
 C:\Users\Abuye\Desktop\Backend-Assessement\API\obj\Debug\net8.0\API.genruntimeconfig.cache
 C:\Users\Abuye\Desktop\Backend-Assessement\API\obj\Debug\net8.0\ref\API.dll
+E:\Dev-Codes\Assess\Backend_Assessement_CD\API\obj\Debug\net8.0\API.dll
+E:\Dev-Codes\Assess\Backend_Assessement_CD\API\obj\Debug\net8.0\refint\API.dll
+E:\Dev-Codes\Assess\Backend_Assessement_CD\API\obj\Debug\net8.0\API.pdb

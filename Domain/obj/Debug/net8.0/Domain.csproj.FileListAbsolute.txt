@@ -9,3 +9,16 @@ C:\Users\Abuye\Desktop\Backend-Assessement\Domain\obj\Debug\net8.0\Domain.dll
 C:\Users\Abuye\Desktop\Backend-Assessement\Domain\obj\Debug\net8.0\refint\Domain.dll
 C:\Users\Abuye\Desktop\Backend-Assessement\Domain\obj\Debug\net8.0\Domain.pdb
 C:\Users\Abuye\Desktop\Backend-Assessement\Domain\obj\Debug\net8.0\ref\Domain.dll
+E:\Dev-Codes\Assess\Backend_Assessement_CD\Domain\bin\Debug\net8.0\Domain.deps.json
+E:\Dev-Codes\Assess\Backend_Assessement_CD\Domain\bin\Debug\net8.0\Domain.dll
+E:\Dev-Codes\Assess\Backend_Assessement_CD\Domain\bin\Debug\net8.0\Domain.pdb
+E:\Dev-Codes\Assess\Backend_Assessement_CD\Domain\obj\Debug\net8.0\Domain.csproj.AssemblyReference.cache
+E:\Dev-Codes\Assess\Backend_Assessement_CD\Domain\obj\Debug\net8.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+E:\Dev-Codes\Assess\Backend_Assessement_CD\Domain\obj\Debug\net8.0\Domain.AssemblyInfoInputs.cache
+E:\Dev-Codes\Assess\Backend_Assessement_CD\Domain\obj\Debug\net8.0\Domain.AssemblyInfo.cs
+E:\Dev-Codes\Assess\Backend_Assessement_CD\Domain\obj\Debug\net8.0\Domain.csproj.CoreCompileInputs.cache
+E:\Dev-Codes\Assess\Backend_Assessement_CD\Domain\obj\Debug\net8.0\Domain.sourcelink.json
+E:\Dev-Codes\Assess\Backend_Assessement_CD\Domain\obj\Debug\net8.0\Domain.dll
+E:\Dev-Codes\Assess\Backend_Assessement_CD\Domain\obj\Debug\net8.0\refint\Domain.dll
+E:\Dev-Codes\Assess\Backend_Assessement_CD\Domain\obj\Debug\net8.0\Domain.pdb
+E:\Dev-Codes\Assess\Backend_Assessement_CD\Domain\obj\Debug\net8.0\ref\Domain.dll

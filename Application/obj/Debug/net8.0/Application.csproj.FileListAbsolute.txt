@@ -9,3 +9,6 @@ C:\Users\Abuye\Desktop\Backend-Assessement\Application\obj\Debug\net8.0\Applicat
 C:\Users\Abuye\Desktop\Backend-Assessement\Application\obj\Debug\net8.0\refint\Application.dll
 C:\Users\Abuye\Desktop\Backend-Assessement\Application\obj\Debug\net8.0\Application.pdb
 C:\Users\Abuye\Desktop\Backend-Assessement\Application\obj\Debug\net8.0\ref\Application.dll
+E:\Dev-Codes\Assess\Backend_Assessement_CD\Application\obj\Debug\net8.0\Application.dll
+E:\Dev-Codes\Assess\Backend_Assessement_CD\Application\obj\Debug\net8.0\refint\Application.dll
+E:\Dev-Codes\Assess\Backend_Assessement_CD\Application\obj\Debug\net8.0\Application.pdb
