@@ -1,6 +1,6 @@
 ﻿using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Tokens;
-using Application.Authentication.common;
+using Application.Persistence.Contracts.Common;
 using Application.Persistence.Contracts;
 using Domain.Entities;
 using System;
