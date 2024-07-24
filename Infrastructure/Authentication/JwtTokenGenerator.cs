@@ -1,7 +1,7 @@
 ﻿using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Tokens;
-using Application.Persistence.Contracts.Auth;
-using Application.Persistence.Contracts.Common;
+using Application.Authentication.common;
+using Application.Persistence.Contracts;
 using Domain.Entities;
 using System;
 using System.Collections.Generic;
@@ -10,7 +10,7 @@ using System.Linq;
 using System.Security.Claims;
 using System.Text;
 using System.Threading.Tasks;
-using SparkTank.Infrastructure.services;
+using Infrastructure.services;
 
 namespace Infrastructure.Authentication;
 public class JwtTokenGenerator : IJwtTokenGenerator

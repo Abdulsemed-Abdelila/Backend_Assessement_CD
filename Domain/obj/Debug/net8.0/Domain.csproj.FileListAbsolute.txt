@@ -22,3 +22,5 @@ E:\Dev-Codes\Assess\Backend_Assessement_CD\Domain\obj\Debug\net8.0\Domain.dll
 E:\Dev-Codes\Assess\Backend_Assessement_CD\Domain\obj\Debug\net8.0\refint\Domain.dll
 E:\Dev-Codes\Assess\Backend_Assessement_CD\Domain\obj\Debug\net8.0\Domain.pdb
 E:\Dev-Codes\Assess\Backend_Assessement_CD\Domain\obj\Debug\net8.0\ref\Domain.dll
+E:\Dev-Codes\Assess\Backend_Assessement_CD\Domain\bin\Debug\net8.0\Domain.runtimeconfig.json
+E:\Dev-Codes\Assess\Backend_Assessement_CD\Domain\obj\Debug\net8.0\Domain.genruntimeconfig.cache

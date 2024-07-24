@@ -1,12 +1,12 @@
 ﻿using BCrypt.Net;
-using SparkTank.Application.Persistence.Contracts.Auth;
+using Application.Persistence.Contracts.Auth;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SparkTank.Infrastructure.services;
+namespace Infrastructure.services;
 public class PasswordService : IPasswordService
 {
     public string HashPassword(string password)

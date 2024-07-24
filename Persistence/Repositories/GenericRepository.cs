@@ -15,41 +15,36 @@ namespace Persistence.Repositories
             _context = context;
         }
 
-        public async Task<T> AddAsync(T entity)
+        public Task<T> AddAsync(T entity)
         {
-            await _context.Set<T>().AddAsync(entity);
-            await _context.SaveChangesAsync();
-            return entity;
+            _context.Set<T>().Add(entity);
+            return Task.FromResult(entity);
         }
 
-        public async Task DeleteAsync(T entity)
+        public Task DeleteAsync(T entity)
         {
             _context.Set<T>().Remove(entity);
-            await _context.SaveChangesAsync();
+            return Task.CompletedTask;
         }
 
-        public async Task<T> GetByIdAsync(int id)
+        public Task<T> GetByIdAsync(int id)
         {
-            return await _context.Set<T>().FindAsync(id);
+            var result = _context.Set<T>().Find(id);
+            return Task.FromResult(result);
         }
 
-        public async Task<IReadOnlyList<T>> ListAllAsync()
+        public Task<List<T>> ListAllAsync()
         {
-            return await _context.Set<T>().ToListAsync();
+            var result = _context.Set<T>().ToList();
+            return Task.FromResult(result);
         }
 
-        public async Task UpdateAsync(T entity)
+        public Task UpdateAsync(T entity)
         {
-            _context.Entry(entity).State = EntityState.Modified;
-            await _context.SaveChangesAsync();
+            _context.Set<T>().Update(entity);
+            _context.SaveChangesAsync();
+            return Task.CompletedTask;
         }
-
-
-
-
-    }
-
-    public interface IGenericRepository<T> where T : class
-    {
     }
 }
+

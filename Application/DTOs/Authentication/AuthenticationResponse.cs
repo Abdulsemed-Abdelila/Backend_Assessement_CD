@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace SparkTank.Application.DTOs.Authentication
+namespace Application.DTOs.Authentication
 {
     public class AuthenticationResponse
     {

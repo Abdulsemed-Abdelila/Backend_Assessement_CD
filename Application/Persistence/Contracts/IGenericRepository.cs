@@ -5,13 +5,13 @@ using System.Threading.Tasks;
 
 namespace Application.Persistence.Contracts
 {
-    public interface IGenericRepository
+    public interface IGenericRepository<T> where T : class
     {
-        Task<T> AddAsync<T>(T entity);
-        Task DeleteAsync<T>(T entity);
-        Task<T> GetByIdAsync<T>(int id);
-        Task<IReadOnlyList<T>> ListAllAsync<T>();
-        Task UpdateAsync<T>(T entity);
+        Task<T> AddAsync(T entity);
+        Task DeleteAsync(T entity);
+        Task<T> GetByIdAsync(int id);
+        Task<List<T>> ListAllAsync();
+        Task UpdateAsync(T entity);
 
     }
 }

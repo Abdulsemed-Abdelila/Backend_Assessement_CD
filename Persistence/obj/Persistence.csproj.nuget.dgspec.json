@@ -28,9 +28,6 @@
             "projectReferences": {
               "E:\\Dev-Codes\\Assess\\Backend_Assessement_CD\\Domain\\Domain.csproj": {
                 "projectPath": "E:\\Dev-Codes\\Assess\\Backend_Assessement_CD\\Domain\\Domain.csproj"
-              },
-              "E:\\Dev-Codes\\Assess\\Backend_Assessement_CD\\Infrastructure\\Infrastructure.csproj": {
-                "projectPath": "E:\\Dev-Codes\\Assess\\Backend_Assessement_CD\\Infrastructure\\Infrastructure.csproj"
               }
             }
           }
@@ -200,7 +197,14 @@
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "E:\\Dev-Codes\\Assess\\Backend_Assessement_CD\\Application\\Application.csproj": {
+                "projectPath": "E:\\Dev-Codes\\Assess\\Backend_Assessement_CD\\Application\\Application.csproj"
+              },
+              "E:\\Dev-Codes\\Assess\\Backend_Assessement_CD\\Domain\\Domain.csproj": {
+                "projectPath": "E:\\Dev-Codes\\Assess\\Backend_Assessement_CD\\Domain\\Domain.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -330,7 +334,7 @@
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[8.0.2, )"
+              "version": "[8.0.7, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",

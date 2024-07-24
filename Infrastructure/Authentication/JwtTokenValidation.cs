@@ -1,6 +1,6 @@
 ﻿using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Tokens;
-using SparkTank.Application.Persistence.Contracts.Auth;
+using Application.Persistence.Contracts.Auth;
 using System;
 using System.Collections.Generic;
 using System.IdentityModel.Tokens.Jwt;
@@ -9,7 +9,7 @@ using System.Security.Claims;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SparkTank.Infrastructure.Authentication;
+namespace Infrastructure.Authentication;
 public class JwtTokenValidation : IJwtTokenValidation
 {
     public readonly Jwtsettings _jwtsettings;
@@ -38,7 +38,7 @@ public class JwtTokenValidation : IJwtTokenValidation
             ValidIssuer = Environment.GetEnvironmentVariable("Issuer"),
 
             ValidateAudience = true,
-            ValidAudience  = Environment.GetEnvironmentVariable("Audience"),
+            ValidAudience = Environment.GetEnvironmentVariable("Audience"),
 
             ValidateLifetime = true,
 
@@ -52,9 +52,10 @@ public class JwtTokenValidation : IJwtTokenValidation
         try
         {
             SecurityToken validatedToken;
-            tokenHandler.ValidateToken(token,tokenParamaters,out validatedToken);
+            tokenHandler.ValidateToken(token, tokenParamaters, out validatedToken);
             return true;
-        }catch (Exception ex)
+        }
+        catch (Exception ex)
         {
             return false;
         }

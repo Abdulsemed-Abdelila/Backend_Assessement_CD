@@ -117,9 +117,6 @@
             "projectReferences": {
               "E:\\Dev-Codes\\Assess\\Backend_Assessement_CD\\Domain\\Domain.csproj": {
                 "projectPath": "E:\\Dev-Codes\\Assess\\Backend_Assessement_CD\\Domain\\Domain.csproj"
-              },
-              "E:\\Dev-Codes\\Assess\\Backend_Assessement_CD\\Infrastructure\\Infrastructure.csproj": {
-                "projectPath": "E:\\Dev-Codes\\Assess\\Backend_Assessement_CD\\Infrastructure\\Infrastructure.csproj"
               }
             }
           }
@@ -289,7 +286,14 @@
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "E:\\Dev-Codes\\Assess\\Backend_Assessement_CD\\Application\\Application.csproj": {
+                "projectPath": "E:\\Dev-Codes\\Assess\\Backend_Assessement_CD\\Application\\Application.csproj"
+              },
+              "E:\\Dev-Codes\\Assess\\Backend_Assessement_CD\\Domain\\Domain.csproj": {
+                "projectPath": "E:\\Dev-Codes\\Assess\\Backend_Assessement_CD\\Domain\\Domain.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

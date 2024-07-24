@@ -7,13 +7,13 @@ using System.Text;
 using System.Threading.Tasks;
 using MediatR;
 
-namespace SparkTank.Application;
+namespace Application;
 public static class ApplicationConfigurationServices
 {
     public static IServiceCollection ConfigureApplicationServices(this IServiceCollection services)
     {
         services.AddAutoMapper(Assembly.GetExecutingAssembly());
-        services.AddMediatR(config=>config.RegisterServicesFromAssembly(Assembly.GetExecutingAssembly()));
+        services.AddMediatR(config => config.RegisterServicesFromAssembly(Assembly.GetExecutingAssembly()));
         return services;
     }
 }
